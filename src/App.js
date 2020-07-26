@@ -7,7 +7,9 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import ShopCollection from './components/ShopCollection';
 import OurStory from './components/OurStory';
+
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Footer from './components/Footer';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   
@@ -44,7 +46,7 @@ class App extends Component {
                 </ul>
               </nav>
               <div className="menu-nav_cart">
-                <ShoppingCartOutlined />
+              <ShoppingCartOutlined />
               </div>
             </div>
           </nav>
@@ -66,9 +68,12 @@ class App extends Component {
           <Route path='/Contact' component={ Contact }>
             <Contact/>
           </Route>
+        
 
         </Switch>
+        <Footer />
       </Router>
+      
     );
   }
 }

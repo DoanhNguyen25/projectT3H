@@ -141,7 +141,7 @@ class Home extends Component {
                 </div>
                 {/* ============kết thúc phần new arrivals================= */}
                 {/* ========footer========== */}
-                <div className="wrapper_footer">
+                {/* <div className="wrapper_footer">
                     <div className="footer_link">
                         <div className="footer_link-container">
                             <div className="link_left">
@@ -171,7 +171,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="footer_inforCustomer"></div>
-                </div>
+                </div> */}
             </>
         );
     }

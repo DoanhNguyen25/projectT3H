@@ -1,0 +1,113 @@
+.head{
+    font-weight: 300px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+.shop_inner_inf{
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    color: #777;
+    font-family: 'Nunito', sans-serif;
+}
+.contact_visit{
+    flex: 1;
+    margin: 10px;
+}
+h6{
+    font-weight: 300px;
+}
+
+.contact_time{
+    flex: 1;
+    margin: 10px;
+}
+.contact_customers{
+    flex: 1;
+    margin: 10px;
+}
+.contact-map iframe {
+    width: 100%;
+    height: 350px;
+}
+.contact_section h6{
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    color: #777;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact_infor {
+   
+    padding: 12px 15px ;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #999;
+    width: 46%;
+    outline: none;
+}
+.contact_infor:focus, .contact_infor:hover{
+    border-bottom: 2px solid #000000;
+}
+form {
+    margin: 0px auto;
+    width: 60%;
+}
+.subject{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+}
+.subject:hover, .subject:focus{
+    border-bottom: 2px solid #000000;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #999;
+    resize: none;
+    outline: none;
+  }
+  textarea:hover, textarea:focus{
+    border-bottom: 2px solid #000000;
+  }
+
+  
+.btn-sm{
+    margin: 10px auto;
+    border: none;
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    outline: none;
+
+}
+.btn-sm:hover{
+    color: tomato;
+}
+@media screen and (max-width: 600px){
+    .contact_infor{
+        width: 100%;
+    }
+    .shop_inner_inf{
+        display: block;
+    }
+}
+
+
+/*--//contact--*/
+/*--responsive--*/
+
